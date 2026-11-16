@@ -1,0 +1,95 @@
+{
+  "count": 10,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "圣诞，爱来到我们中间",
+      "summary": "圣诞节是为纪念耶稣降生：祂亲自来到人间，为我们的罪走上十字架又从死里复活，显明上帝的爱，带来脱离罪与死亡、重新开始的盼望。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep01.jpg",
+      "media": "media/ep01.mp4",
+      "sha256": "4f08eed14fac1c3b204bc87f3edd3343e98affff97a62841cacf9dc00408f709"
+    },
+    {
+      "episode": 2,
+      "title": "教会，是怎样的地方？",
+      "summary": "教会不是一座建筑，也不是完美的人，而是相信并学习跟随耶稣、一起敬拜、读经、祷告、彼此照顾的群体；得救靠的是耶稣的恩典，而不是出席教会的功劳。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep02.jpg",
+      "media": "media/ep02.mp4",
+      "sha256": "60da751fc4b7179a73f744b5025b6d19c82926c2c1206911d1b9a75c8c7f58b9"
+    },
+    {
+      "episode": 3,
+      "title": "耶稣是谁？",
+      "summary": "基督徒相信耶稣不只是好老师，而是上帝的儿子和救主，祂为我们的罪走上十字架又复活，打开与上帝和好的路，人可以带着真实的问题从读福音书开始认识祂。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep03.jpg",
+      "media": "media/ep03.mp4",
+      "sha256": "5a5167b33e1a4c0a920ccf15d7e4abc14072d48ad095c474436f1e4c1748ed0a"
+    },
+    {
+      "episode": 4,
+      "title": "爱，不靠成绩换来",
+      "summary": "上帝的爱不是优秀者的奖品，而是借着耶稣十字架白白赐下的恩典，它不赞同一切行为，而是邀请人承认过错、信靠耶稣、学习重新生活。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep04.jpg",
+      "media": "media/ep04.mp4",
+      "sha256": "ed0130c44d70a759cb48ec749495e79ec38d93583c7db68ebd000e07c7fd6a18"
+    },
+    {
+      "episode": 5,
+      "title": "罪，不只是做坏事",
+      "summary": "圣经所说的罪不只是做坏事，更关乎人离开上帝、以自己为中心的内心方向，每个人都需要面对，而耶稣来是要赐下赦免，带我们回到上帝面前。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep05.jpg",
+      "media": "media/ep05.mp4",
+      "sha256": "514a659d0f66e26c857a081244c67caf7040f8ba6c7b15d74ad3a090c58c0b39"
+    },
+    {
+      "episode": 6,
+      "title": "十字架与赦免",
+      "summary": "基督徒相信无罪的耶稣甘愿为我们的罪受死并复活，在十字架上显明上帝的公义与爱，使悔改信靠祂的人领受赦免、与上帝和好，并学习认错、修复关系。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep06.jpg",
+      "media": "media/ep06.mp4",
+      "sha256": "cade12678e6711ced574bfbda24714e2cc6a1146f29b12de2ee97ffaf6b9ecb5"
+    },
+    {
+      "episode": 7,
+      "title": "复活带来的盼望",
+      "summary": "基督徒相信耶稣确实死了又真实地从死里复活，胜过罪与死亡，使人在流泪和失去中仍有盼望，也邀请人带着疑问读福音书，认识这份盼望的根基。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep07.jpg",
+      "media": "media/ep07.mp4",
+      "sha256": "714bd6bfb3fa8cd3d4a18b5ce5192cfd077ae3a5e401b6a9a5ac3d11f23f359a"
+    },
+    {
+      "episode": 8,
+      "title": "祷告，不是咒语",
+      "summary": "祷告不是控制结果的咒语，而是向上帝敞开心、学习信靠祂的真实对话，人可以诚实说出感谢、过错、需要与困惑，开始认真寻求上帝。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep08.jpg",
+      "media": "media/ep08.mp4",
+      "sha256": "62c86ce4fd046a44b41ccd8e5ff9ed406873f05103c613dff4a12112deff7052"
+    },
+    {
+      "episode": 9,
+      "title": "有信仰，仍会有难处",
+      "summary": "圣经没有保证信主后不再有难处，基督徒的盼望是在患难中信靠曾经历痛苦的耶稣，不必独自承受，也可以祷告、向可信的人求助并接受专业的医疗和支持。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep09.jpg",
+      "media": "media/ep09.mp4",
+      "sha256": "66823ffd96e32bd704b874994a936f1a6e3a22c14076ff43f9844b774236e948"
+    },
+    {
+      "episode": 10,
+      "title": "从哪里开始认识耶稣？",
+      "summary": "认识耶稣可以从读一小段福音书（如马可福音）、诚实祷告、找认真讲解圣经的教会开始；福音邀请人悔改、信靠耶稣，靠恩典与上帝和好，并在生活中学习跟随祂。",
+      "duration": 60.0,
+      "thumbnail": "thumbnails/ep10.jpg",
+      "media": "media/ep10.mp4",
+      "sha256": "88b51ec69c1bf49cd10156bf59a550307ce8adf232ba19a9418981c53c38ee92"
+    }
+  ]
+}
