@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang='zh-CN'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+<meta name='robots' content='noindex, nofollow'>
+<meta name='color-scheme' content='light'>
+<title>认识耶稣 · 十集短片目录</title>
+<style>
+:root{--ivory:#f6f1e6;--paper:#fcf9f2;--ink:#1e1a15;--ink-soft:#463e34;--muted:#675d50;--ochre:#b5822f;--ochre-deep:#83561a;--ochre-wash:#f0e3c8;--rule:#ddd2bf;--stage:#100e0b;--serif:'Noto Serif SC','Source Han Serif SC','Source Han Serif','Songti SC','STSong','SimSun',serif;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none !important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.7;overflow-x:hidden;overflow-wrap:anywhere}
+img,video{display:block;max-width:100%}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ochre-deep);outline-offset:2px}
+.skip{position:absolute;left:-9999px;top:8px;z-index:10;background:var(--ink);color:var(--ivory);padding:10px 14px;border-radius:4px;text-decoration:none}
+.skip:focus{left:12px}
+.banner{background:var(--ink);color:#efe7d8;font-size:14px;line-height:1.6;padding:10px 0}
+.banner .wrap{display:flex;gap:10px;align-items:flex-start}
+.banner-tag{flex:none;border:1px solid #c99a4c;color:#e8c587;font-size:12px;letter-spacing:.08em;padding:1px 8px;border-radius:2px;margin-top:2px}
+.banner p{margin:0;min-width:0}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 18px}
+.masthead{padding:30px 0 22px;border-bottom:1px solid var(--rule)}
+.kicker{margin:0 0 10px;font-size:12px;letter-spacing:.22em;color:var(--ochre-deep)}
+h1,h2,.card-title{font-family:var(--serif);font-weight:600}
+h1{margin:0 0 10px;font-size:30px;line-height:1.3;letter-spacing:.02em}
+.lede{margin:0;max-width:32em;color:var(--ink-soft)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr);gap:32px;padding:24px 0 56px}
+.stage,.catalog{min-width:0}
+.frame{position:relative;width:100%;max-width:calc(62vh * 9 / 16);margin:0 auto;aspect-ratio:9/16;background:var(--stage);border-radius:3px;overflow:hidden;box-shadow:0 1px 0 var(--rule)}
+@supports (height:1svh){.frame{max-width:calc(62svh * 9 / 16)}}
+#player{width:100%;height:100%;object-fit:contain;background:var(--stage)}
+.media-note{margin:10px auto 0;max-width:22em;font-size:13px;color:var(--muted);text-align:center}
+.now{margin:18px auto 0;max-width:30em}
+.now-label{margin:0;font-size:12px;letter-spacing:.18em;color:var(--ochre-deep)}
+.now h2{margin:4px 0 6px;font-size:23px;line-height:1.35}
+.now-summary{margin:0;color:var(--ink-soft);font-size:15px}
+.controls{display:flex;gap:10px;margin-top:16px}
+.controls button{flex:1 1 0;min-width:0;min-height:48px;padding:10px 12px;border:1px solid var(--ink);background:transparent;border-radius:3px;cursor:pointer;font-size:15px;letter-spacing:.04em}
+.controls button:hover:not(:disabled){background:var(--ink);color:var(--ivory)}
+.controls button:disabled{border-color:var(--rule);color:#a59a8a;cursor:not-allowed}
+.hint{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.catalog-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.catalog-head h2{margin:0;font-size:20px}
+.count{font-size:13px;color:var(--muted);white-space:nowrap}
+.search-label{display:block;font-size:13px;color:var(--ink-soft);margin-bottom:6px}
+#search{display:block;width:100%;min-height:48px;padding:10px 14px;background:var(--paper);border:1px solid var(--rule);border-bottom:2px solid var(--ink);border-radius:3px 3px 0 0;font-size:16px;-webkit-appearance:none;appearance:none}
+#search:focus{outline:none;border-bottom-color:var(--ochre)}
+#search:focus-visible{outline:2px solid var(--ochre-deep);outline-offset:2px}
+#episode-list{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--rule)}
+#episode-list li{border-bottom:1px solid var(--rule)}
+.card{display:grid;grid-template-columns:64px minmax(0,1fr);gap:14px;align-items:start;width:100%;min-height:44px;padding:14px 12px 14px 10px;background:transparent;border:0;border-left:3px solid transparent;text-align:left;cursor:pointer}
+.card:hover{background:var(--paper)}
+.card[aria-current='true']{background:var(--ochre-wash);border-left-color:var(--ochre)}
+.thumb-box{display:block;width:64px;aspect-ratio:9/16;background:linear-gradient(160deg,#3a3026,#1e1a15);border-radius:2px;overflow:hidden}
+.thumb{width:100%;height:100%;object-fit:cover}
+.thumb.missing{visibility:hidden}
+.card-body{display:block;min-width:0}
+.meta-line{display:flex;justify-content:space-between;gap:8px;font-size:12px;letter-spacing:.08em;color:var(--ochre-deep)}
+.meta-line .dur{color:var(--muted);font-variant-numeric:tabular-nums}
+.card-title{display:block;margin:3px 0 4px;font-size:18px;line-height:1.4;color:var(--ink)}
+.card-summary{display:block;font-size:14px;line-height:1.65;color:var(--ink-soft)}
+.selected-tag{display:none;margin-top:6px;font-size:12px;color:var(--ochre-deep);letter-spacing:.08em}
+.card[aria-current='true'] .selected-tag{display:inline-block}
+.empty{padding:32px 8px;text-align:center;border-bottom:1px solid var(--rule)}
+.empty p{margin:0 0 4px;font-family:var(--serif);font-size:18px}
+.empty .sub{font-family:var(--sans);font-size:14px;color:var(--muted);margin-bottom:14px}
+.empty button{min-height:44px;padding:8px 20px;background:var(--ink);color:var(--ivory);border:0;border-radius:3px;cursor:pointer}
+.colophon{border-top:1px solid var(--rule);padding:18px 0 32px;font-size:13px;color:var(--muted)}
+.colophon p{margin:0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+@media (min-width:900px){
+  .wrap{padding:0 32px}
+  h1{font-size:38px}
+  .masthead{padding:44px 0 28px}
+  .layout{grid-template-columns:minmax(280px,340px) minmax(0,1fr);gap:56px;align-items:start;padding-top:36px}
+  .stage{position:sticky;top:20px}
+  .frame{max-width:calc(70vh * 9 / 16)}
+  .now{margin-top:16px}
+  .now h2{font-size:21px}
+  .card{grid-template-columns:72px minmax(0,1fr);gap:18px;padding:16px 14px}
+  .thumb-box{width:72px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important;transition:none !important}}
+</style>
+</head>
+<body>
+<a class='skip' href='#catalog'>跳到影片目录</a>
+
+<header class='masthead'>
+  <div class='wrap'>
+    <p class='kicker'>福音短片 · 共十集 · 每集一分钟</p>
+    <h1>认识耶稣，从一分钟开始</h1>
+    <p class='lede'>十段简短的中文影片，从圣诞、教会、罪与赦免，谈到复活的盼望与祷告。可以按顺序观看，也可以搜索你关心的问题。</p>
+  </div>
+</header>
+<main class='wrap layout'>
+  <section class='stage' id='stage' aria-labelledby='current-title'>
+    <div class='frame'>
+      <video id='player' controls playsinline preload='metadata' aria-describedby='current-summary'>
+        你的浏览器不支持影片播放。
+      </video>
+    </div>
+    <p class='media-note' id='media-note' hidden>影片暂时无法载入，请稍后再试。</p>
+    <div class='now'>
+      <p class='now-label' id='current-number'>第 01 集</p>
+      <h2 id='current-title'></h2>
+      <p class='now-summary' id='current-summary'></p>
+      <div class='controls' role='group' aria-label='切换影片'>
+        <button type='button' id='previous'>‹ 上一集</button>
+        <button type='button' id='next'>下一集 ›</button>
+      </div>
+      <p class='hint'>选择影片后不会自动播放，请按播放键观看。</p>
+    </div>
+    <p class='sr-only' id='status' aria-live='polite' aria-atomic='true'></p>
+  </section>
+  <section class='catalog' id='catalog' aria-labelledby='catalog-heading'>
+    <div class='catalog-head'>
+      <h2 id='catalog-heading'>全部影片</h2>
+      <span class='count' id='count' aria-live='polite'></span>
+    </div>
+    <label class='search-label' for='search'>搜索标题或简介</label>
+    <input type='search' id='search' placeholder='例如：祷告、十字架、盼望' autocomplete='off' enterkeyhint='search'>
+    <ol id='episode-list' aria-label='影片列表'></ol>
+    <div class='empty' id='empty' hidden>
+      <p>没有找到相关影片</p>
+      <p class='sub'>没有与「<span id='empty-query'></span>」相符的标题或简介，可以换个词试试。</p>
+      <button type='button' id='clear-search'>清除搜索</button>
+    </div>
+  </section>
+</main>
+<footer class='colophon'>
+  <div class='wrap'><p>认识耶稣 · 十集中文福音短片</p></div>
+</footer>
+<script>
+const episodes = [{"episode": 1, "title": "圣诞，爱来到我们中间", "summary": "圣诞节是为纪念耶稣降生：祂亲自来到人间，为我们的罪走上十字架又从死里复活，显明上帝的爱，带来脱离罪与死亡、重新开始的盼望。", "duration": 60.0, "thumbnail": "thumbnails/ep01.jpg", "media": "media/ep01.mp4"}, {"episode": 2, "title": "教会，是怎样的地方？", "summary": "教会不是一座建筑，也不是完美的人，而是相信并学习跟随耶稣、一起敬拜、读经、祷告、彼此照顾的群体；得救靠的是耶稣的恩典，而不是出席教会的功劳。", "duration": 60.0, "thumbnail": "thumbnails/ep02.jpg", "media": "media/ep02.mp4"}, {"episode": 3, "title": "耶稣是谁？", "summary": "基督徒相信耶稣不只是好老师，而是上帝的儿子和救主，祂为我们的罪走上十字架又复活，打开与上帝和好的路，人可以带着真实的问题从读福音书开始认识祂。", "duration": 60.0, "thumbnail": "thumbnails/ep03.jpg", "media": "media/ep03.mp4"}, {"episode": 4, "title": "爱，不靠成绩换来", "summary": "上帝的爱不是优秀者的奖品，而是借着耶稣十字架白白赐下的恩典，它不赞同一切行为，而是邀请人承认过错、信靠耶稣、学习重新生活。", "duration": 60.0, "thumbnail": "thumbnails/ep04.jpg", "media": "media/ep04.mp4"}, {"episode": 5, "title": "罪，不只是做坏事", "summary": "圣经所说的罪不只是做坏事，更关乎人离开上帝、以自己为中心的内心方向，每个人都需要面对，而耶稣来是要赐下赦免，带我们回到上帝面前。", "duration": 60.0, "thumbnail": "thumbnails/ep05.jpg", "media": "media/ep05.mp4"}, {"episode": 6, "title": "十字架与赦免", "summary": "基督徒相信无罪的耶稣甘愿为我们的罪受死并复活，在十字架上显明上帝的公义与爱，使悔改信靠祂的人领受赦免、与上帝和好，并学习认错、修复关系。", "duration": 60.0, "thumbnail": "thumbnails/ep06.jpg", "media": "media/ep06.mp4"}, {"episode": 7, "title": "复活带来的盼望", "summary": "基督徒相信耶稣确实死了又真实地从死里复活，胜过罪与死亡，使人在流泪和失去中仍有盼望，也邀请人带着疑问读福音书，认识这份盼望的根基。", "duration": 60.0, "thumbnail": "thumbnails/ep07.jpg", "media": "media/ep07.mp4"}, {"episode": 8, "title": "祷告，不是咒语", "summary": "祷告不是控制结果的咒语，而是向上帝敞开心、学习信靠祂的真实对话，人可以诚实说出感谢、过错、需要与困惑，开始认真寻求上帝。", "duration": 60.0, "thumbnail": "thumbnails/ep08.jpg", "media": "media/ep08.mp4"}, {"episode": 9, "title": "有信仰，仍会有难处", "summary": "圣经没有保证信主后不再有难处，基督徒的盼望是在患难中信靠曾经历痛苦的耶稣，不必独自承受，也可以祷告、向可信的人求助并接受专业的医疗和支持。", "duration": 60.0, "thumbnail": "thumbnails/ep09.jpg", "media": "media/ep09.mp4"}, {"episode": 10, "title": "从哪里开始认识耶稣？", "summary": "认识耶稣可以从读一小段福音书（如马可福音）、诚实祷告、找认真讲解圣经的教会开始；福音邀请人悔改、信靠耶稣，靠恩典与上帝和好，并在生活中学习跟随祂。", "duration": 60.0, "thumbnail": "thumbnails/ep10.jpg", "media": "media/ep10.mp4"}];
+(function () {
+  const player = document.getElementById('player');
+  const list = document.getElementById('episode-list');
+  const search = document.getElementById('search');
+  const prevBtn = document.getElementById('previous');
+  const nextBtn = document.getElementById('next');
+  const curNum = document.getElementById('current-number');
+  const curTitle = document.getElementById('current-title');
+  const curSummary = document.getElementById('current-summary');
+  const status = document.getElementById('status');
+  const count = document.getElementById('count');
+  const empty = document.getElementById('empty');
+  const emptyQuery = document.getElementById('empty-query');
+  const clearBtn = document.getElementById('clear-search');
+  const mediaNote = document.getElementById('media-note');
+  const stage = document.getElementById('stage');
+  const data = Array.isArray(episodes) ? episodes : [];
+  const cards = [];
+  let current = -1;
+
+  player.autoplay = false;
+  player.removeAttribute('autoplay');
+
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function formatDuration(sec) {
+    const s = Math.max(0, Math.round(Number(sec) || 0));
+    return Math.floor(s / 60) + ':' + pad(s % 60);
+  }
+  function epNumber(ep, i) { return pad(ep && ep.episode != null ? ep.episode : i + 1); }
+
+  function el(tag, cls, text) {
+    const node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function build() {
+    data.forEach(function (ep, i) {
+      const li = el('li');
+      const btn = el('button', 'card');
+      btn.type = 'button';
+      btn.setAttribute('aria-current', 'false');
+
+      const box = el('span', 'thumb-box');
+      const img = el('img', 'thumb');
+      img.src = ep.thumbnail || '';
+      img.alt = '';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.width = 72;
+      img.height = 128;
+      img.addEventListener('error', function () { img.classList.add('missing'); });
+      box.appendChild(img);
+
+      const body = el('span', 'card-body');
+      const meta = el('span', 'meta-line');
+      meta.appendChild(el('span', 'num', '第 ' + epNumber(ep, i) + ' 集'));
+      const dur = el('span', 'dur', formatDuration(ep.duration));
+      dur.setAttribute('aria-label', '时长 ' + formatDuration(ep.duration));
+      meta.appendChild(dur);
+      body.appendChild(meta);
+      body.appendChild(el('span', 'card-title', ep.title || ''));
+      body.appendChild(el('span', 'card-summary', ep.summary || ''));
+      body.appendChild(el('span', 'selected-tag', '● 当前选择'));
+
+      btn.appendChild(box);
+      btn.appendChild(body);
+      btn.addEventListener('click', function () {
+        selectEpisode(i);
+        if (window.matchMedia('(max-width: 899px)').matches) {
+          const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          stage.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+        }
+      });
+
+      li.appendChild(btn);
+      list.appendChild(li);
+      cards.push({ li: li, btn: btn, text: ((ep.title || '') + ' ' + (ep.summary || '')).toLowerCase() });
+    });
+  }
+
+  function selectEpisode(index) {
+    const i = Number(index);
+    if (!Number.isInteger(i) || i < 0 || i >= data.length) return false;
+    const ep = data[i];
+    if (i !== current) {
+      player.pause();
+      mediaNote.hidden = true;
+      player.poster = ep.thumbnail || '';
+      player.src = ep.media || '';
+      player.load();
+    }
+    current = i;
+    curNum.textContent = '第 ' + epNumber(ep, i) + ' 集 · ' + formatDuration(ep.duration);
+    curTitle.textContent = ep.title || '';
+    curSummary.textContent = ep.summary || '';
+    player.setAttribute('aria-label', '第 ' + epNumber(ep, i) + ' 集：' + (ep.title || ''));
+    cards.forEach(function (c, j) { c.btn.setAttribute('aria-current', j === i ? 'true' : 'false'); });
+    prevBtn.disabled = i === 0;
+    nextBtn.disabled = i === data.length - 1;
+    status.textContent = '已选择第 ' + epNumber(ep, i) + ' 集：' + (ep.title || '') + '。请按播放键观看。';
+    return true;
+  }
+  window.selectEpisode = selectEpisode;
+
+  function applyFilter() {
+    const raw = search.value.trim();
+    const q = raw.toLowerCase();
+    let shown = 0;
+    cards.forEach(function (c) {
+      const hit = !q || c.text.indexOf(q) !== -1;
+      c.li.hidden = !hit;
+      if (hit) shown++;
+    });
+    empty.hidden = shown !== 0;
+    emptyQuery.textContent = raw;
+    list.hidden = shown === 0;
+    count.textContent = q ? '找到 ' + shown + ' 集' : '共 ' + data.length + ' 集';
+  }
+
+  search.addEventListener('input', applyFilter);
+  search.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && search.value) { search.value = ''; applyFilter(); }
+  });
+  clearBtn.addEventListener('click', function () { search.value = ''; applyFilter(); search.focus(); });
+  prevBtn.addEventListener('click', function () { selectEpisode(current - 1); });
+  nextBtn.addEventListener('click', function () { selectEpisode(current + 1); });
+  player.addEventListener('error', function () { mediaNote.hidden = false; });
+
+  build();
+  applyFilter();
+  if (data.length) {
+    selectEpisode(0);
+  } else {
+    curTitle.textContent = '暂无影片';
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+})();
+</script>
+</body>
+</html>
